@@ -74,7 +74,7 @@ functions might not even support the objects if they are checking for identity.)
 type name | `typeof` | check-types | testcase
 --|--|--|--
 **Array** | object | **Array** | `([]) instanceof Array` -> `true`
-**Function** | function | **function** | `(function f () {}) instanceof Function` -> `true`
+**Function** | function | **Function** | `(function f () {}) instanceof Function` -> `true`
 **Date** | object | **Date** | `(new Date()) instanceof Date` -> `true`
 **RegExp** | object | **RegExp** | `(new RegExp(/.+/)) instanceof RegExp` -> `true`
 Object | **object** | **object** | `({}) instanceof Object` -> `true` but `Object.create(null) instanceof Object` -> `false`
